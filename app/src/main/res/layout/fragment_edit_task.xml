@@ -9,6 +9,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="12dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
         tools:context=".UpdateTaskFragment">
 
         <TextView
@@ -28,6 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="@string/enter_the_title"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editTaskHeading"
@@ -41,6 +45,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/enter_the_description"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
