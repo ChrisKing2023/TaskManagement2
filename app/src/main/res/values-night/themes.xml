@@ -1,7 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.TaskManagement2" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.TaskManagement2" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/blueMain</item>
+        <item name="colorPrimaryVariant">@color/blueMain</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blueMain</item>
+        <item name="colorSecondaryVariant">@color/blueMain</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/blueMain</item>
+        <!-- Customize your theme here. -->
     </style>
 </resources>

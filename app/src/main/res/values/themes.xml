@@ -10,10 +10,10 @@
         <item name="colorSecondaryVariant">@color/blueMain</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/blueMain</item>
         <!-- Customize your theme here. -->
 
     </style>
 
-    <style name="Theme.TaskManagement2" parent="Base.Theme.TaskManagement2" />
+
 </resources>
